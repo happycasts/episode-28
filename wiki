@@ -1,0 +1,12 @@
+
+:ls to get all the buffers, then you can use
+:b part_of_the_path<tab> to switch to the buffer, really cool
+http://vimeo.com/6306508
+
+:b# to switch between twa related file
+
+# do things
+
+:bufdo
+:tabdo
+:windo
