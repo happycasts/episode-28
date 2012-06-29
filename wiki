@@ -10,3 +10,8 @@ http://vimeo.com/6306508
 :bufdo
 :tabdo
 :windo
+
+# Ctrl-O
+
+when you use `gf` or sth to go to another file, now you want to go back Ctrl-o is your friend,
+if you use ctags, Ctrl_t is better
