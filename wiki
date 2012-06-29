@@ -15,3 +15,7 @@ http://vimeo.com/6306508
 
 when you use `gf` or sth to go to another file, now you want to go back Ctrl-o is your friend,
 if you use ctags, Ctrl_t is better
+
+# vim status line
+
+show current filename, this maybe seems useless, untail u open more than one window, try `vs`
