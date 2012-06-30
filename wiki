@@ -3,7 +3,7 @@
 :b part_of_the_path<tab> to switch to the buffer, really cool
 http://vimeo.com/6306508
 
-:b# to switch between twa related file
+:b# to switch between two related file
 
 # do things
 
@@ -34,3 +34,16 @@ if file1 is already opened in vim-server, `vr file1` again won't give me a error
 press control and select colume with mouse, not so hard, but I don't need this if I know
 
 Q: how to open current buffer in vimserver:FOO
+A: ?
+
+# tabs and minibuffer explorer
+they just show you all the filenames of the buffers, while everything is just a :ls away. Why do u need all the filenames takes prevcious editing space, and bring noise to your eyes. So lame!
+
+
+# window is not buffer
+
+compare `,bd` and Ctrl-W-C
+
+Ctrl-W-J to get the window you want to workon(Firstly open three window: two window for a function call, one for function def)
+
+# :h statusline
