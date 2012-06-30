@@ -1,0 +1,47 @@
+1. file<->buffer<->windows
+   1. file--harddisk
+   1. buffer--mem
+   1. windows--just windows
+
+1. so buffer is the core.
+   1. buffer is not the file: change sth in buffer, and its not in the `cat file`, until `:w`
+   1. buffer is not the window: 
+       1. :vs` to open one file in two window 
+       1. compare `:bd` and Ctrl-W-C
+
+1. buffer basics
+   1. :ls and `:h ls`
+   1. :b part_of_the_path<tab>  # to switch to the buffer, really cool
+   1. so tab and minibuffer-explorer is just bullshit
+      1. they just show you all the filenames of the buffers, 
+      1. while everything is just a :ls away. Why do u need all the filenames takes prevcious editing space, 
+      1. and bring noise to your eyes. So lame!
+
+1. vim status line
+
+   :h statusline
+
+1. when you use `:bn` to switch among buffers, you see error when there is unsaved changes in current buffer, comes
+
+   :set hidden
+
+1. Ctrl-W-J to get the window you want to workon
+   1. (Firstly open three window: two window for a function call, one for function def)
+
+1. run commands
+
+    :bufdo
+    :windo
+
+1. vim --remote
+
+    vim --servername VIM-SERVER 
+    vim --servername VIM-SERVER --remote-silent $* 
+
+    1. use :vs to open the new buffer from remote vim client
+    1. no more .swp error
+        1. if file1 is already opened in vim-server, `vr file1` again won't give me a error
+        1. but just do nothing, or bring file1 to the front window in vs if it isnot, really nice.
+
+1. fuzzyfinder
+   give it a really quick intro, and point people to its own episode

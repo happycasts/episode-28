@@ -1,0 +1,18 @@
+http://vimeo.com/6306508
+
+## copy a colume to another vim instance
+press control and select colume with mouse, not so hard, but I don't need this if I know
+
+:b# to switch between two related file
+# Ctrl-O
+
+:jumps
+
+when you use `gf` or sth to go to another file, now you want to go back Ctrl-o is your friend,
+if you use ctags, Ctrl_t is better
+
+Q: how to open current buffer in vimserver:FOO
+A: ?
+
+
+gvim does vim-server-remote nicely and easily
