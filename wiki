@@ -1,5 +1,4 @@
 
-:ls to get all the buffers, then you can use
 :b part_of_the_path<tab> to switch to the buffer, really cool
 http://vimeo.com/6306508
 
@@ -47,3 +46,9 @@ compare `,bd` and Ctrl-W-C
 Ctrl-W-J to get the window you want to workon(Firstly open three window: two window for a function call, one for function def)
 
 # :h statusline
+
+# :h ls
+don't go details explaining what people see :ls, instead show them the helppage
+
+# fuzzyfinder
+give it a really quick intro, and point people to its own episode
