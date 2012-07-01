@@ -1,3 +1,12 @@
+1. run commands
+
+    :bufdo
+    :windo
+
+   1. so tab and minibuffer-explorer is just bullshit
+      1. they just show you all the filenames of the buffers, 
+      1. while everything is just a :ls away. Why do u need all the filenames takes prevcious editing space, 
+      1. and bring noise to your eyes. So lame!
 http://vimeo.com/6306508
 
 ## copy a colume to another vim instance

@@ -12,10 +12,6 @@
 1. buffer basics
    1. :ls and `:h ls`
    1. :b part_of_the_path<tab>  # to switch to the buffer, really cool
-   1. so tab and minibuffer-explorer is just bullshit
-      1. they just show you all the filenames of the buffers, 
-      1. while everything is just a :ls away. Why do u need all the filenames takes prevcious editing space, 
-      1. and bring noise to your eyes. So lame!
 
 1. vim status line
 
@@ -27,11 +23,6 @@
 
 1. Ctrl-W-J to get the window you want to workon
    1. (Firstly open three window: two window for a function call, one for function def)
-
-1. run commands
-
-    :bufdo
-    :windo
 
 1. vim --remote
 
